@@ -93,8 +93,9 @@ from Customers c left join Customers pc
 	select * from Employees
 
 
--- tugas : 1. concat fullname lastname 
-	-- 2. case si no manager
+-- TUGAS :
+-- 1. concat fullname lastname 
+-- 2. case si no manager
 select 
 	e.EmployeeID, 
 	CONCAT(e.LastName,', ',e.FirstName) as [Employee],
